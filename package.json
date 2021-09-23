@@ -2,31 +2,25 @@
   "name": "mernbloghope",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Dfellner92/mernBlogHope.git"
   },
-  "author": "Daniel Fellner",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Dfellner92/mernBlogHope/issues"
   },
   "homepage": "https://github.com/Dfellner92/mernBlogHope#readme",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongodb": "^4.1.1",
-    "mongoose": "^6.0.5"
-  },
-  "devDependencies": {
-    "@testing-library/react": "^12.1.0",
-    "react-test-renderer": "^17.0.2"
+    "mongoose": "^6.0.7"
   }
 }
